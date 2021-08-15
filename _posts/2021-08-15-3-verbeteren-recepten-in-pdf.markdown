@@ -19,7 +19,7 @@ Files uit assets
 <ul>
   {% for pdf in site.static_files %}
     {% if pdf.path contains 'assets' %}
-      {% if pdf.extname == '.pdf' or file.extname == '.PDF' %}
+      {% if pdf.extname == '.pdf' or pdf.extname == '.PDF' %}
         <li>
           <a href="{{ pdf.path }}">{{ pdf.basename }}</a>
         </li>

@@ -1,0 +1,34 @@
+---
+layout: post
+title:  "5-Dit is 'm"
+date:   2021-08-15 16:00:32 +0200
+---
+
+Dit is de oplossing:
+
+
+<ul>
+  {% for file in site.static_files %}
+    {% if file.path contains 'assets' %}
+      {% if file.extname == '.pdf' or file.extname == '.PDF' %}
+        <li>
+          <a href="{{ file.path }}">{{ file.basename }}</a>
+        </li>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+</ul>
+
+
+
+<ul>
+  {% for file in site.static_files %}
+    {% if file.path contains 'assets' %}
+      {% if file.extname == '.pdf' or file.extname == '.PDF' %}
+        <li>
+          <a href="{{ file.path }}">{{ file.basename }}</a>
+        </li>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+</ul>
