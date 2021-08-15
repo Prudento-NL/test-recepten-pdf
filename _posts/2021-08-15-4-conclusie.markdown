@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "4-Conclusie"
+date:   2021-08-15 15:45:32 +0200
+---
+Het doel was om een lijst met linken te creëren met recepten met de extensie pdf.
+Dit is gelukt.
+
+__Conclusie__
+- Zet de pfd files in een aparte directory
+  -  Voeg aan deze directory geen andere bestanden toe
+- Maak geen gebruik van de directory _assets_, omdat hier door de theme ook files in geplaatst kunnen worden
+  - De files uit de theme worden getoond in de lijst
+
+__Vervolg__
+Je zou kunnen proberen om alleen de extensies pdf in een lijst te kunnen krijgen.
+Er moet eenmogelijkheid zijn om dat voor elkaar te krijgen met 
