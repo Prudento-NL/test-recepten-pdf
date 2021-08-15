@@ -1,28 +1,26 @@
 ---
 layout: post
-title:  "Verbeteren recepten met pdf file"
-date:   2021-08-15 12:45:32 +0200
+title:  "3-Verbeteren recepten met pdf file"
+date:   2021-08-15 14:45:32 +0200
 ---
 
-Werkt, maar er komt een extra file mee minima-social-icons
+Werkt, maar er komt een extra file mee minima-social-icons omdat alle assets weergegeven worden.
 <ul>
-{% for pdf in site.static_files %}
-      <li>
-  <a href="{{ pdf.path }}">{{ pdf.basename }}</a>
-    </li>
-{% endfor %}
-  </ul>
-
+ {% for pdf in site.static_files %}
+   <li>
+     <a href="{{ pdf.path }}">{{ pdf.basename }}</a>
+   </li>
+ {% endfor %}
+</ul>
+Hierin wordt alleen de content van de folder assets/recepten weergegegen
 <ul>
   {% for pdf in site.static_files %}
-  {% if pdf.path contains 'assets/recepten/' %}
+    {% if pdf.path contains 'assets/recepten/' %}
+      <li>
+        <a href="{{ pdf.path }}">{{ pdf.basename }}</a>
+      </li>
     {% endif %}
   {% endfor %}
-
-          <li>
-    <a href="{{ pdf.path }}">{{ pdf.basename }}</a>
-
-      </li>
 </ul>
 <!-- <ul
   class="image-gallery">
