@@ -23,5 +23,4 @@ Werkt, maar er komt een extra file mee minima-social-icons
 
       </li>
 
-
   </ul>
