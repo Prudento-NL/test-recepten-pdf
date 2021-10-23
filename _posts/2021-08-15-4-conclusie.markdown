@@ -14,4 +14,4 @@ __Conclusie__
 
 __Vervolg__
 Je zou kunnen proberen om alleen de extensies pdf in een lijst te kunnen krijgen.
-Er moet eenmogelijkheid zijn om dat voor elkaar te krijgen met 
+Er moet een mogelijkheid zijn om dat voor elkaar te krijgen met Liquid.
