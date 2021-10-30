@@ -18,5 +18,3 @@ Prompt voor het downloaden van de file
 
 Embed de PDF file
 <embed src="/recepten_subset/Boerenkool.pdf" type="application/pdf" width="600px" height="500px" />
-
-[pdf-file](https://github.com/Prudento-NL/test-recepten-pdf/blob/master/recepten_subset/Boerenkool.pdf)
